@@ -41,6 +41,7 @@ to be $0$ everywhere except for a specific region (like a rectangle or
 triangle).
 
 e.g.) Consider the function:
+
 $$f(x, y) = \begin{cases} 4xy & \text{if } 0 < x < 1 \text{ and } 0 < y < 1 \\ 0 & \text{otherwise} \end{cases}$$
 
 Here, the domain is $\mathbb{R}^2$ (the entire 2D plane), but the
@@ -82,9 +83,10 @@ behind **Partial Derivatives**, which we will discuss in the next
 section.
 
 For the above function $f(x,y)= e^{-(x^2 + y^2)}$, if we fix $y = 0$, it
-becomes univariate: $$f(x, 0) = e^{-(x^2 + 0)} = e^{-x^2}$$ This
-describes the “profile” of the hill if you slice it right down the
-middle along the x-axis.
+becomes univariate:
+
+$$f(x, 0) = e^{-(x^2 + 0)} = e^{-x^2}$$ This describes the “profile” of
+the hill if you slice it right down the middle along the x-axis.
 
 # Separable Functions
 
