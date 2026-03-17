@@ -35,6 +35,7 @@ $$
 $$
 
 e.g.) Differentiate $y = x^2 \cdot e^x$:
+
 $$
 \begin{aligned}
 \text{Let } f(x) = x^2 &\rightarrow f'(x) = 2x \\
@@ -57,6 +58,7 @@ $$
 $$
 
 e.g.) Differentiate $y = \frac{e^x}{x}$:
+
 $$
 \begin{aligned}
 \text{Numerator: } f(x)=e^x &\rightarrow f'(x) = e^x \\
@@ -81,6 +83,7 @@ $$
 It is somehow like peeling an onion: You first take the derivative of the outer function $f(x)$, leaving the inside $g(x)$ alone. Then multiply by the derivative of the inner function $g'(x)$.
 
 e.g.) Differentiate $y=(3x + 1)^5$:
+
 $$
 \begin{aligned}
 \text{Outer: } (\dots)^5 &\rightarrow 5(\dots)^4 \\
@@ -91,6 +94,7 @@ $$
 $$
 
 e.g.) Differentiate $y = e^{x^2}$:
+
 $$
 \begin{aligned}
 \text{Outer: } e^{(\dots)} &\rightarrow e^{(\dots)} \\
@@ -119,6 +123,7 @@ If the following **conditions** are met:
 3. The new limit, $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ must exist (or equal $\pm \infty$).
 
 e.g.) Find $\lim_{x \to 0} \frac{e^x - 1}{x}$:
+
 $$
 \begin{aligned}
 \text{Check: } & \frac{e^0 - 1}{0} = \frac{0}{0} \quad (\text{Indeterminate}) \\
