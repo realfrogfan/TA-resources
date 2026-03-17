@@ -18,9 +18,9 @@ $$
 \frac{dy}{dx}= \frac{d}{dx} \Big[ f(x) \cdot g(x) \Big] = f'(x)g(x) + f(x)g'(x)
 $$
 
-e.g.)
+e.g.) Differentiate $y = x^2 \cdot e^x$:
 
-Differentiate $y = x^2 \cdot e^x$: $$
+$$
 \begin{aligned}
 \text{Let } f(x) = x^2 &\rightarrow f'(x) = 2x \\
 \text{Let } g(x) = e^x &\rightarrow g'(x) = e^x \\
@@ -42,9 +42,9 @@ $$
 \frac{dy}{dx}= \frac{d}{dx} \left[ \frac{f(x)}{g(x)} \right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}
 $$
 
-e.g.)
+e.g.) Differentiate $y = \frac{e^x}{x}$:
 
-Differentiate $y = \frac{e^x}{x}$: $$
+$$
 \begin{aligned}
 \text{Numerator: } f(x)=e^x &\rightarrow f'(x) = e^x \\
 \text{Denominator: } g(x)= x &\rightarrow g'(x) = 1 \\
@@ -70,9 +70,9 @@ It is somehow like peeling an onion: You first take the derivative of
 the outer function $f(x)$, leaving the inside $g(x)$ alone. Then
 multiply by the derivative of the inner function $g'(x)$.
 
-e.g.)
+e.g.) Differentiate $y=(3x + 1)^5$:
 
-Differentiate $y=(3x + 1)^5$: $$
+$$
 \begin{aligned}
 \text{Outer: } (\dots)^5 &\rightarrow 5(\dots)^4 \\
 \text{Inner: } 3x + 1 &\rightarrow 3 \\
@@ -81,9 +81,9 @@ Differentiate $y=(3x + 1)^5$: $$
 \end{aligned}
 $$
 
-e.g.)
+e.g.) Differentiate $y = e^{x^2}$:
 
-Differentiate $y = e^{x^2}$: $$
+$$
 \begin{aligned}
 \text{Outer: } e^{(\dots)} &\rightarrow e^{(\dots)} \\
 \text{Inner: } x^2 &\rightarrow 2x \\
@@ -118,9 +118,9 @@ If the following **conditions** are met:
 3.  The new limit, $\lim_{x \to c} \frac{f'(x)}{g'(x)}$ must exist (or
     equal $\pm \infty$).
 
-e.g.)
+e.g.) Find $\lim_{x \to 0} \frac{e^x - 1}{x}$:
 
-Find $\lim_{x \to 0} \frac{e^x - 1}{x}$: $$
+$$
 \begin{aligned}
 \text{Check: } & \frac{e^0 - 1}{0} = \frac{0}{0} \quad (\text{Indeterminate}) \\
 \text{Differentiate top: } & \frac{d}{dx}(e^x - 1) = e^x \\
