@@ -60,10 +60,14 @@ relationship $y = g(x)$:
     terms of $y$).
 2.  **Differentiate:** Calculate the derivative of $x$ with respect to
     $y$ ($\frac{dx}{dy}$).
-3.  **Substitute:** Use the change of variables formula:
-    $$h(y) = f(x) \cdot \lvert \frac{dx}{dy} \rvert$$ *(Note: You must
-    replace the $x$ inside $f(x)$ with its equivalent expression in
-    terms of $y$ so the final result is purely a function of $y$)*.
+3.  **Substitute:** Use the change of variables formula.
+
+$$h(y) = f(x) \cdot \lvert \frac{dx}{dy} \rvert$$
+
+Note: You must replace the $x$ inside $f(x)$ with its equivalent
+expression in terms of $y$ so the final result is purely a function of
+$y$.
+
 4.  **Find Support:** Determine the new support of $y$ values by mapping
     the original $x$ interval through the function transformation.
 
@@ -73,18 +77,19 @@ in terms of $y$, if we want to keep the area preserved?
 
 1.  **Invert:** $y = x^2\rightarrow$ $x = \sqrt{y}$ as $x$ is in
     $[0,1]$.
-
 2.  **Differentiate:** $\frac{dx}{dy} = \frac{1}{2\sqrt{y}}$.
+3.  **Substitute:**
 
-3.  **Substitute:** $$
+$$
     h(y) = f(\sqrt{y}) \cdot \lvert \frac{1}{2\sqrt{y}}\rvert
-    $$ $$
+$$
+
+$$
     h(y) = (2\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = 1
-    $$
+$$
 
 4.  **Find the New Support:** We must also transform the interval where
     the function is defined.
-
     - Old Support: $0 \le x \le 1$.
     - Transformation: $y = x^2$.
     - New Support:
@@ -92,11 +97,14 @@ in terms of $y$, if we want to keep the area preserved?
       - When $x=1, y=1^2=1$.
       - Since $y=x^2$ is increasing on this interval, the new support is
         simply $0 \le y \le 1$.
+5.  **Final Result:**
 
-5.  **Final Result:** $$
-    h(y) = \begin{cases} 1 & \text{if } 0 < y < 1 \\ 0 & \text{otherwise} \end{cases}
-    $$ The function has transformed from a slope ($2x$) to a flat line
-    ($1$), but the total area is preserved.
+$$
+h(y) = \begin{cases} 1 & \text{if } 0 < y < 1 \\ 0 & \text{otherwise} \end{cases}
+$$
+
+The function has transformed from a slope ($2x$) to a flat line ($1$),
+but the total area is preserved.
 
 <img src="11_change_variable_files/figure-gfm/univariate_change_vis-1.png" style="display: block; margin: auto;" />
 
@@ -136,14 +144,18 @@ $$
 
 **Determinant Formula (2x2 Matrix)**
 
-For a general $2 \times 2$ matrix $A$: $$
+For a general $2 \times 2$ matrix $A$:
+
+$$
 A = \begin{pmatrix} 
 a & b \\ 
 c & d 
 \end{pmatrix}
 $$
 
-The determinant is calculated as: $$
+The determinant is calculated as:
+
+$$
 \det(A) = ad - bc
 $$
 
@@ -197,7 +209,9 @@ To find the Jacobian, we need $x$ and $y$ in terms of $u$ and $v$.
 - Add the equations ($u+v = 2x$) $\rightarrow x = 0.5(u + v)$
 - Subtract them ($u-v = 2y$) $\rightarrow y = 0.5(u - v)$
 
-**Step 4: Calculate the Jacobian** $$
+**Step 4: Calculate the Jacobian**
+
+$$
 J = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{bmatrix} = \begin{bmatrix} 0.5 & 0.5 \\ 0.5 & -0.5 \end{bmatrix}
 $$
 
