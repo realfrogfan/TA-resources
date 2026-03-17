@@ -1,5 +1,5 @@
 # Calculus Review for STAT 131
-Welcome! These are comprehensive calculus review materials specifically designed to prepare a student for STAT 131. The materials help refresh knowledge from the univariate and multivariate calculus courses, without assuming any knowledge on probability and statistics. 
+Welcome! This is a comprehensive calculus review specifically designed to prepare a student for STAT 131. The materials help refresh knowledge from the univariate and multivariate calculus courses, without assuming any knowledge on probability and statistics. 
 
 I developed those moduls as my TA work for Winter 2026. The materials were revised and polished based on comments from Juhee, Justin and Marcela. It took a lot of effort, but the whole process was quite fun.
 
