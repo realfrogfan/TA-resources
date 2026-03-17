@@ -112,7 +112,7 @@ but the total area is preserved.
 
 ## The Bivariate Case and The Jacobian
 
-When we move to two variables (transforming $(x, y)$ to $(u, v)$), the
+When we move to two variables, transforming $(x, y)$ to $(u, v)$, the
 logic is identical, but the geometry is slightly richer. Instead of
 stretching a line segment, we are warping a 2D area.
 
