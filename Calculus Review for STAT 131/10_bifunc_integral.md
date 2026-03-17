@@ -158,7 +158,9 @@ split the term in the exponent:
 
 $$
 e^{-(x^2 + y^2)} = e^{-x^2 - y^2} = e^{-x^2} \cdot e^{-y^2}
-$$ If we define $g(x) = e^{-x^2}$ and $h(y) = e^{-y^2}$, we see clearly
+$$
+
+If we define $g(x) = e^{-x^2}$ and $h(y) = e^{-y^2}$, we see clearly
 that:
 
 $$
