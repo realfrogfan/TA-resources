@@ -160,22 +160,26 @@ mixed inside the sine function.
 
 - Find $f_x$: We differentiate w.r.t $x$. Notice that $x$ appears
   *twice* (once outside, once inside). We must use the Product Rule and
-  Chain Rule. $$
+  Chain Rule.
+
+$$
     \begin{aligned}
     f_x &= \frac{\partial}{\partial x}(x) \cdot \sin(xy) + x \cdot \frac{\partial}{\partial x}(\sin(xy)) \\
     &= (1) \cdot \sin(xy) + x \cdot (\cos(xy) \cdot y) \quad (\text{Chain rule: deriv of } xy \text{ is } y) \\
     &= \sin(xy) + xy \cos(xy)
     \end{aligned}
-    $$
+$$
 
 - Find $f_y$: We differentiate w.r.t $y$. Here, the $x$ outside is just
-  a constant coefficient. We only need the Chain Rule. $$
+  a constant coefficient. We only need the Chain Rule.
+
+$$
     \begin{aligned}
     f_y &= x \cdot \frac{\partial}{\partial y}(\sin(xy)) \\
     &= x \cdot (\cos(xy) \cdot x) \quad (\text{Chain rule: deriv of } xy \text{ is } x) \\
     &= x^2 \cos(xy)
     \end{aligned}
-    $$
+$$
 
 **Step 2**: Second Order Derivatives (Mixed)
 
