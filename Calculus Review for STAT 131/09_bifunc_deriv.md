@@ -187,8 +187,8 @@ Now, let’s calculate the mixed partial $f_{xy}$ (taking the derivative
 of $f_x$ w.r.t $y$). We look at our result for
 $f_x = \sin(xy) + xy \cos(xy)$ and differentiate w.r.t $y$.
 
-- Term 1 ($\sin(xy)$): Derivative is $\cos(xy) \cdot x$.
-- Term 2 ($xy \cos(xy)$): We treat $x$ as a constant coefficient, so we
+- Term 1 $\sin(xy)$: Derivative is $\cos(xy) \cdot x$.
+- Term 2 $xy \cos(xy)$: We treat $x$ as a constant coefficient, so we
   are differentiating $x [y \cos(xy)]$. This requires the Product Rule.
 
 $$
