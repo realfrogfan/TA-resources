@@ -41,12 +41,16 @@ circle multiplied by the height $c$.
 
 **Example:**
 
-Let $D$ be the region defined by $x^2 + y^2 \le 9$. Evaluate: $$
+Let $D$ be the region defined by $x^2 + y^2 \le 9$. Evaluate:
+
+$$
 \iint_D 4 \, dx \, dy
 $$
 
 Since the integrand is a constant ($f(x,y) = 4$), we can pull it out of
-the integral: $$
+the integral:
+
+$$
 \iint_D 4 \, dx \, dy = 4 \iint_D 1 \, dx \, dy
 $$
 
@@ -101,7 +105,9 @@ $$
 
 In calculus, we say a function is **separable** if it can be written as
 a product of two single-variable functions (a function of $x$ times a
-function of $y$): $$
+function of $y$):
+
+$$
 f(x, y) = g(x) \cdot h(y)
 $$
 
@@ -141,15 +147,21 @@ acts only as a volume knob (scaling factor), not a tuner (changing the
 shape).
 
 To understand what “separability” looks like, let’s examine the
-function: $$
+function:
+
+$$
 f(x, y) = e^{-(x^2 + y^2)}
 $$
 
 **Why is this function separable?** Using the rules of exponents, we can
-split the term in the exponent: $$
+split the term in the exponent:
+
+$$
 e^{-(x^2 + y^2)} = e^{-x^2 - y^2} = e^{-x^2} \cdot e^{-y^2}
 $$ If we define $g(x) = e^{-x^2}$ and $h(y) = e^{-y^2}$, we see clearly
-that: $$
+that:
+
+$$
 f(x, y) = g(x) \cdot h(y)
 $$ Because the function factors perfectly into a part depending only on
 $x$ and a part depending only on $y$, it is separable.
@@ -213,7 +225,9 @@ $$
 **Example:**
 
 Let $D$ be the rectangular region defined by $0 \le x \le 2$ and
-$0 \le y \le 1$. Evaluate: $$
+$0 \le y \le 1$. Evaluate:
+
+$$
 \iint_D (x + y) \, dy \, dx
 $$
 
@@ -238,11 +252,15 @@ $$
 **Example:**
 
 Let $D$ be the region defined by $0 \le x \le 1$ and $0 \le y \le 1$.
-Evaluate: $$
+Evaluate:
+
+$$
 \iint_D x e^y \, dx \, dy
 $$
 
-Since $x e^y$ separates into $g(x)=x$ and $h(y)=e^y$: $$
+Since $x e^y$ separates into $g(x)=x$ and $h(y)=e^y$:
+
+$$
 \iint_D x e^y \, dx \, dy= \left( \int_0^1 x \, dx \right) \cdot \left( \int_0^1 e^y \, dy \right)
 = \left[ \frac{1}{2} \right] \cdot \left[ e - 1 \right] = \frac{e-1}{2}
 $$
@@ -268,7 +286,9 @@ It is often very helpful to visualize the region. See the example below.
 **Example: Integrating over a Triangle**
 
 Let $D$ be the triangular region defined by $0 \le x \le 1$ and
-$0 \le y \le x$. Evaluate: $$
+$0 \le y \le x$. Evaluate:
+
+$$
 \iint_D 2xy \, dy \, dx
 $$
 
@@ -280,7 +300,9 @@ $y$ to be the inner integral. We can see that the limit for $x$ is $0$
 to $1$. Given $x$, imagine scanning the region with vertical lines, we
 can see that $y$ goes from $0$ to $x$.
 
-**Calculation:** $$
+**Calculation:**
+
+$$
 \int_0^1 \left[ \int_0^x 2xy \, dy \right] \, dx
 $$
 
