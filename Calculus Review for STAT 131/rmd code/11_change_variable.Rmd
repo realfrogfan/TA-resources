@@ -63,9 +63,12 @@ To transform a function $f(x)$ into a new function $h(y)$ using the relationship
 
 1.  **Invert:** Solve the equation $y = g(x)$ for $x$ (express $x$ in terms of $y$).
 2.  **Differentiate:** Calculate the derivative of $x$ with respect to $y$ ($\frac{dx}{dy}$).
-3.  **Substitute:** Use the change of variables formula:
-    $$h(y) = f(x) \cdot \lvert \frac{dx}{dy} \rvert$$
-    *(Note: You must replace the $x$ inside $f(x)$ with its equivalent expression in terms of $y$ so the final result is purely a function of $y$)*.
+3.  **Substitute:** Use the change of variables formula.
+
+$$h(y) = f(x) \cdot \lvert \frac{dx}{dy} \rvert$$
+    
+Note: You must replace the $x$ inside $f(x)$ with its equivalent expression in terms of $y$ so the final result is purely a function of $y$.
+
 4.  **Find Support:** Determine the new support of $y$ values by mapping the original $x$ interval through the function transformation.
 
 **Example:**
@@ -75,12 +78,14 @@ Let's define a new variable $y = x^2$. How does the function look in terms of $y
 1.  **Invert:** $y = x^2\rightarrow$ $x = \sqrt{y}$ as $x$ is in $[0,1]$.
 2.  **Differentiate:** $\frac{dx}{dy} = \frac{1}{2\sqrt{y}}$.
 3.  **Substitute:**
-    $$
+
+$$
     h(y) = f(\sqrt{y}) \cdot \lvert \frac{1}{2\sqrt{y}}\rvert
-    $$
-    $$
+$$
+
+$$
     h(y) = (2\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = 1
-    $$
+$$
     
     
 4.  **Find the New Support:**
@@ -93,9 +98,11 @@ Let's define a new variable $y = x^2$. How does the function look in terms of $y
         * Since $y=x^2$ is increasing on this interval, the new support is simply $0 \le y \le 1$.
 
 5.  **Final Result:**
+
 $$
 h(y) = \begin{cases} 1 & \text{if } 0 < y < 1 \\ 0 & \text{otherwise} \end{cases}
 $$
+
 The function has transformed from a slope ($2x$) to a flat line ($1$), but the total area is preserved.
 
 ```{r univariate_change_vis, fig.height=6, fig.width=7, message=FALSE, warning=FALSE}
@@ -159,7 +166,7 @@ grid.arrange(p_map, p_funcs, nrow = 2, heights = c(1, 1.5))
 
 ## The Bivariate Case and The Jacobian
 
-When we move to two variables (transforming $(x, y)$ to $(u, v)$), the logic is identical, but the geometry is slightly richer. Instead of stretching a line segment, we are warping a 2D area.
+When we move to two variables, transforming $(x, y)$ to $(u, v)$, the logic is identical, but the geometry is slightly richer. Instead of stretching a line segment, we are warping a 2D area.
 
 A small square in the $(u, v)$ plane might be stretched into a diamond, a rotated rectangle, or a curved wedge in the $(x, y)$ plane. We need a factor that captures this **Area Distortion**.
 
@@ -184,6 +191,7 @@ $$
 **Determinant Formula (2x2 Matrix)**
 
 For a general $2 \times 2$ matrix $A$:
+
 $$
 A = \begin{pmatrix} 
 a & b \\ 
@@ -192,6 +200,7 @@ c & d
 $$
 
 The determinant is calculated as:
+
 $$
 \det(A) = ad - bc
 $$
@@ -304,6 +313,7 @@ To find the Jacobian, we need $x$ and $y$ in terms of $u$ and $v$.
 * Subtract them ($u-v = 2y$) $\rightarrow y = 0.5(u - v)$
 
 **Step 4: Calculate the Jacobian**
+
 $$
 J = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{bmatrix} = \begin{bmatrix} 0.5 & 0.5 \\ 0.5 & -0.5 \end{bmatrix}
 $$
