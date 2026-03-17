@@ -1,7 +1,7 @@
 # Calculus Review for STAT 131
 Welcome! These are comprehensive calculus review materials specifically designed to prepare a student for STAT 131. The materials help refresh knowledge from the univariate and multivariate calculus courses, without assuming any knowledge on probability and statistics. 
 
-I developed those moduls as my TA work for Winter 2026. The materials are revised and polished based on comments from Juhee, Justin and Marcela.
+I developed those moduls as my TA work for Winter 2026. The materials were revised and polished based on comments from Juhee, Justin and Marcela. It took a lot of effort, but the whole process was quite fun.
 
 The contents here are built sequentially—starting from function basics, fundamental univariate calculus and advancing to the essential bivariate techniques for STAT 131. Even though the whole modules mention nothing about probability stuff, some contents and examples can serve as enlightment for several crucial concepts in probability theory.
 
