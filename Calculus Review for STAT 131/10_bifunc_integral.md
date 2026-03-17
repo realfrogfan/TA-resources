@@ -165,8 +165,10 @@ that:
 
 $$
 f(x, y) = g(x) \cdot h(y)
-$$ Because the function factors perfectly into a part depending only on
-$x$ and a part depending only on $y$, it is separable.
+$$
+
+Because the function factors perfectly into a part depending only on $x$
+and a part depending only on $y$, it is separable.
 
 **Visualizing the “Slices”**
 
