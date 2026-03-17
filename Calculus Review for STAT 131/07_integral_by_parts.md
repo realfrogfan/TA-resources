@@ -92,7 +92,9 @@ Solve $\int x^2 e^x \, dx$:
 
 - Let $u = x^2 \rightarrow$ $du = 2x \, dx$
 - Let $dv = e^x dx \rightarrow$  $v = e^x$
-- Apply Formula: $$ \int x^2 e^x \, dx = x^2 e^x - \int 2x e^x \, dx $$
+- Apply Formula:
+
+$$ \int x^2 e^x \, dx = x^2 e^x - \int 2x e^x \, dx $$
 
 2.  We then need to solve the remaining integral $\int 2x e^x \, dx$.
     From Example 1, we know $\int x e^x \, dx = xe^x - e^x$. We can
