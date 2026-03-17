@@ -34,7 +34,9 @@ $\int_0^2 x^2 \, dx$.
 ### Variable Limits
 
 The limit of the integral can also be a variable. When the limit of
-integration is a variable, the integral defines a new function $$
+integration is a variable, the integral defines a new function
+
+$$
 F(x)=\int_a^x f(t) \, dt.
 $$
 
@@ -46,7 +48,9 @@ avoid confusing it with the limit $x$.
 We can also differentiate $F(x)$:
 
 **The Basic Rule:** The derivative of the integral recovers the original
-function. $$ \frac{d}{dx} \int_a^x f(t) \, dt = f(x) $$
+function.
+
+$$ \frac{d}{dx} \int_a^x f(t) \, dt = f(x) $$
 
 The limit of the integral can even be a function $g(x)$. To
 differentiate it, we apply the chain rule:
@@ -67,7 +71,7 @@ $$ \int f(x) \, dx = F(x) + C $$
 - $F(x)$: The “antiderivative” function.
 - $C$: The Constant of Integration.
 
-We need the “$+C$” because the derivative of any constant is zero, and
+We need the $+C$ because the derivative of any constant is zero, and
 there are infinitely many functions that could be the answer (e.g.,
 $x^2$, $x^2 + 5$, $x^2 - 100$ all differentiate to $2x$). We represent
 this entire “family of functions” by adding an arbitrary constant $C$.
@@ -98,6 +102,7 @@ evaluation step:
 $$ \left[ F(x) \right]_a^b = F(b) - F(a) $$
 
 e.g.)
+
 $$ \int_0^3 x^2 \, dx = \left[ \frac{x^3}{3} \right]_0^3 = \frac{3^3}{3} - \frac{0^3}{3} = 9 - 0 = 9 $$
 
 ------------------------------------------------------------------------
@@ -135,7 +140,9 @@ $$
 
 ### The Exponential Function
 
-The Natural Exponential $e^x$ $$
+The Natural Exponential $e^x$
+
+$$
 \int e^x \, dx = e^x + C
 $$
 
@@ -143,7 +150,9 @@ $$
     \int e^{kx} \, dx = \frac{1}{k}e^{kx} + C
     $$
 
-The General Exponential $a^x$ $$
+The General Exponential $a^x$
+
+$$
 \int a^x \, dx = \frac{a^x}{\log(a)} + C
 $$
 
