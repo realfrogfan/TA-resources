@@ -115,7 +115,7 @@ functions.
 ### The Constant Function
 
 $$
-\int c \, dx = cx + C
+\int c dx = cx + C
 $$
 
 ### The Power Function
@@ -124,7 +124,7 @@ This is the reverse of the derivative power rule. Instead of multiplying
 and subtracting, you add and divide.
 
 $$
-\int x^n \, dx = \frac{x^{n+1}}{n+1} + C
+\int x^n  dx = \frac{x^{n+1}}{n+1} + C
 $$
 
 **Note:** This rule applies for all $n \neq -1$.
@@ -135,7 +135,7 @@ When $n = -1$, the power rule fails. This is the special case that
 yields the natural logarithm.
 
 $$
-\int \frac{1}{x} \, dx = \log|x| + C
+\int \frac{1}{x}  dx = \log|x| + C
 $$
 
 ### The Exponential Function
@@ -143,25 +143,25 @@ $$
 The Natural Exponential $e^x$
 
 $$
-\int e^x \, dx = e^x + C
+\int e^x  dx = e^x + C
 $$
 
 - With a constant coefficient $e^{kx}$:
   
-$$\int e^{kx} \, dx = \frac{1}{k}e^{kx} + C$$
+$$\int e^{kx}  dx = \frac{1}{k}e^{kx} + C$$
 
 The General Exponential $a^x$
 
 $$
-\int a^x \, dx = \frac{a^x}{\log(a)} + C
+\int a^x dx = \frac{a^x}{\log(a)} + C
 $$
 
 ### Trigonometric Functions
 
 $$
-\int \sin(x) \, dx = -\cos(x) + C
+\int \sin(x)  dx = -\cos(x) + C
 $$ $$
-\int \cos(x) \, dx = \sin(x) + C
+\int \cos(x)  dx = \sin(x) + C
 $$
 
 Be careful with the signs!
