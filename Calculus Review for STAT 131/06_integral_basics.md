@@ -146,9 +146,10 @@ $$
 \int e^x \, dx = e^x + C
 $$
 
-- With a constant coefficient $e^{kx}$: $$
+- With a constant coefficient $e^{kx}$:
+$$
     \int e^{kx} \, dx = \frac{1}{k}e^{kx} + C
-    $$
+$$
 
 The General Exponential $a^x$
 
