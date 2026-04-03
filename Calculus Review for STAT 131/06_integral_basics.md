@@ -147,9 +147,8 @@ $$
 $$
 
 - With a constant coefficient $e^{kx}$:
-$$
-    \int e^{kx} \, dx = \frac{1}{k}e^{kx} + C
-$$
+  
+$$\int e^{kx} \, dx = \frac{1}{k}e^{kx} + C$$
 
 The General Exponential $a^x$
 
