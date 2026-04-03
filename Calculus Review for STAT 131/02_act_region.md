@@ -4,11 +4,11 @@ Jibo Shen
 
 Visualizing the region where a function is defined is a critical skill.
 This activity reviews how to sketch common regions defined by
-inequalities on the $x$-$y$ plane.
+inequalities on the $x$- $y$ plane.
 
 ------------------------------------------------------------------------
 
-### Introduction to the $x$-$y$ Plane (The Cartesian Plane)
+### Introduction to the $x$- $y$ Plane (The Cartesian Plane)
 
 The $x$-$y$ plane is a two-dimensional flat surface formed by the
 intersection of two perpendicular number lines. It allows us to pinpoint
