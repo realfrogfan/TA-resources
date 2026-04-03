@@ -10,7 +10,7 @@ inequalities on the $x$- $y$ plane.
 
 ### Introduction to the $x$- $y$ Plane (The Cartesian Plane)
 
-The $x$-$y$ plane is a two-dimensional flat surface formed by the
+The $x$- $y$ plane is a two-dimensional flat surface formed by the
 intersection of two perpendicular number lines. It allows us to pinpoint
 the exact location of any point or shape using a pair of numbers.
 
