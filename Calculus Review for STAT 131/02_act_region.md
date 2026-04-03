@@ -40,7 +40,7 @@ Here are the key components:
 
 ### What is a Region?
 
-On the $x$-$y$ plane, an equation with an equals sign (like $y = 2x$ or
+On the $x$- $y$ plane, an equation with an equals sign (like $y = 2x$ or
 $x^2 + y^2 = 4$) describes a specific boundary—a 1D line or curve.
 
 A **region** is a two-dimensional area on the plane. It consists of a
